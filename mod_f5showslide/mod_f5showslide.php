@@ -14,7 +14,7 @@ JHTML::_('behavior.modal');
 JHTML :: _ ('behavior.colorpicker');
 $document->addScript(JURI::root(true) ."/modules/mod_f5showslide/js/jquery-ui.min.js");
 $document->addScript(JURI::root(true) ."/modules/mod_f5showslide/admin/f5multifield.js");
-$document->addScript('http://www.youtube.com/player_api');
+$document->addScript('https://www.youtube.com/player_api');
 $document->addScript('http://a.vimeocdn.com/js/froogaloop2.min.js');
 $document->addScript(JURI::root(true) ."/modules/mod_f5showslide/js/f5showslide.js");
 $document->addStyleSheet(JURI::base() . 'modules/mod_f5showslide/css/f5showslide.css');
